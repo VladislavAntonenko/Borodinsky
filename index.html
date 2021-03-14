@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Barbershop</title>
+</head>
+<body>
+    
+
+        <header class="main-header">
+        <nav class="top-menu">
+            <ul class="list-menu">
+                <li><a href="#">Информация</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Прайс-лист</a></li>
+                <li><a href="#">Магазин</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#" class="enter"><img src="img/login.svg" class="icon-login">Вход</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container">
+        <section class="preview">
+            <div class="logo">
+                <img src="img/logo-index.png" alt="Barbershop Boraginsky">
+            </div>
+            <div class="advantages">
+             <atrticle class="advantage-1 advantage">
+                <span>Быстро<br>♦</span>
+                <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+             </atrticle> 
+             <atrticle class="advantage-2 advantage">
+                <span>Круто<br>♦</span>
+                <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+                    МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+            </atrticle> 
+            <atrticle class="advantage-3 advantage">
+                <span>Дорого<br>♦</span>
+                <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И     НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА      НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?</p>  
+            </atrticle>   
+            </div>
+        </section>
+        <section class="events">
+            <article class="news">
+                <span>Новости</span>
+                <div class="news-1">
+                    <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                    <time datetime="11.01.2021" class="time">11 января</time>
+                </div>
+                <div class="news-2">
+                    <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                    <time datetime="18.01.2021" class="time">18 января</time>
+                    <a href="#" class="all_news">Все новости</a>
+                </div>
+            </article>
+            <img src="img/shape.png" alt="Decor" class="shape">
+            <article class="gallery">
+                <span>Фотогалерея</span><br>
+                <img src="img/photo.png" alt="Photo from Barbershop" class="hall"><br>
+                <a href="#" class="back btn">Назад</a>
+                <a href="#" class="next btn">Вперед</a>
+            </article>
+        </section>
+        <section class="connection">
+            <article class="contacts">
+                <span>Контактная информация</span>
+                <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+                    АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+                    ТЕЛЕФОН: +7 (812) 666-02-66</p>
+                    <p>ВРЕМЯ РАБОТЫ: <br>
+                        ПН—ПТ: С 10:00 ДО 22:00 <br>
+                        СБ—ВС: С 10:00 ДО 19:00</p>
+                    <a href="#" class="were btn">Как проехать</a>
+                    <a href="#" class="feedback btn">Обратная связь</a>
+            </article>
+            <img src="img/shape.png" alt="Decor" class="shape">
+            <article class="online-entry">
+                <span>Записаться</span>
+                <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ   С ВАМИ<br> ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+                <form action="" method="post">
+                    <div class="_date">
+                    <label for="date">Дата</label><br>
+                    <input type="date" name="date" id="date" placeholder="08.10.2017">
+                    </div>
+                    <div class="_time">
+                    <label for="time">Время</label><br>
+                    <input type="time" name="time" id="time" placeholder="10:00">
+                    </div>
+                    <div class="name">
+                    <label for="name">Ваше имя</label><br>
+                    <input type="text" id="name" name="name" placeholder="Борода">
+                    </div>
+                    <div class="number">
+                    <label for="number">Телефон</label><br>
+                    <input type="tel" name="number" id="number" placeholder="+7 123 456-78-90">
+                    </div>
+                    <input type="submit" value="Отправить">
+                </form>
+            </article>
+        </section>
+    </div>
+        <footer class="main-footer">
+            <div class="container_footer">
+            <article class="info">
+              <p>БАРБЕРШОП «БОРОДИНСКИЙ» <br>
+                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8/<p> 
+                <a href="#">КАК НАС НАЙТИ?</a><br>
+                <a href="#">ТЕЛЕФОН: +7 (812) 666-02-66</a>
+            </article>
+            <article class="social-web">
+                <p>Давайте дружить!</p>
+                <a href=""><img src="img/VK.svg" alt="vkontakte" width="27px" height="15px"></a>
+                <a href=""><img src="img/Facebook.svg" alt="Facebook"></a>
+                <a href=""><img src="img/Instagram.svg" alt="Instagram"></a>
+            </article>
+            <article class="copyright">
+                <p>Разработано</p>
+                <a href="htmlacademy.ru">htmlacademy</a>
+            </article>
+        </div>
+        </footer>
+</body>
+</html>
